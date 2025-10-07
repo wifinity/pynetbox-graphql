@@ -9,7 +9,7 @@ Extends pynetbox to support NetBox GraphQL API.
 import pynetbox_graphql
 
 # Initialize the client
-netbox = pynetbox_graphql(
+netbox = pynetbox_graphql.api(
     url="https://your-netbox-instance.com/graphql/",
     token="your-api-token"
 )
